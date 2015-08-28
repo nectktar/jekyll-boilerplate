@@ -1,0 +1,90 @@
+# Setup
+name:                "Your site name"
+description:         "Awesome description"
+url:                 "http://walutisme.com"
+baseurl:             "/jekyll-boilerplate"
+author:
+  name:              "Your Name"
+#  email:             "your@email.com"
+#  uri:               "http://example.com"
+
+# Pagination
+paginate:            "10"
+
+# Exclude
+#
+# Exclude some files to not compiled by Jekyll
+exclude:
+  # Gemfile used only on local
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+# Supported plugins by github pages
+# Check here: https://pages.github.com/versions/
+gems:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:             compressed
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# pygments as syntax highlighter
+highlighter:         pygments
+
+# redcarpet as markdown compiler
+markdown:            redcarpet
+
+# usefull redcarpet extensions
+# more: https://github.com/vmg/redcarpet#readme
+redcarpet:
+  extensions:
+    - tables
+    - autolink
+    - strikethrough
+
+# compress compiled html
+# more: https://github.com/penibelst/jekyll-compress-html
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  ignore:
+    envs: [local]
+
+# prose config
+prose:
+  rooturl: _posts
+  siteurl: http://walutisme.com/jekyll-boilerplate
+  media: images
+  relativeLinks: http://walutisme.com/jekyll-boilerplate/links.jsonp
+  metadata:
+    _posts:
+      - name: 'layout'
+        field:
+          element: hidden
+          value: post
+      - name: 'title'
+        field:
+          element: text
+          label: 'Title'
+      - name: 'categories'
+        field:
+          element: text
+          label: 'Category'
+          placeholder: Example
+      - name: 'tags'
+        field:
+          element: text
+          label: Tag(s)
+          value: []
+          placeholder: [tag1, tag2, tag3, ...]

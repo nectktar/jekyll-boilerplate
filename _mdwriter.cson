@@ -1,0 +1,20 @@
+siteEngine: "jekyll"
+siteLocalDir: "/home/akhyar/project/jekyll-boilerplate"
+siteDraftsDir: "_drafts/"
+sitePostsDir: "_posts/"
+siteImagesDir: "images/"
+siteUrl: "http://walutisme.com/jekyll-boilerplate"
+urlForCategories: "http://walutisme.com/jekyll-boilerplate/categories.json"
+urlForPosts: "http://walutisme.com/jekyll-boilerplate/posts.json"
+urlForTags: "http://walutisme.com/jekyll-boilerplate/tags.json"
+fileExtension: ".md"
+newPostFileName: "{year}-{month}-{day}-{title}{extension}"
+frontMatter: """
+---
+title: "<title>"
+date: "<date>"
+---
+"""
+imageTag: "![<alt>](<src>)"
+textStyles:
+  italic: before: "*", after: "*"
