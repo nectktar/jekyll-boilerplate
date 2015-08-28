@@ -1,4 +1,5 @@
 # jekyll-boilerplate
+[![Build Status](https://travis-ci.org/nectktar/jekyll-boilerplate.svg?branch=master)](https://travis-ci.org/nectktar/jekyll-boilerplate)
 
 A ready to use boilerplate for [Jekyll][jekyll].
 
