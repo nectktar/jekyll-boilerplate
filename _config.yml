@@ -9,7 +9,7 @@ author:
 #  uri:               "http://example.com"
 
 # Pagination
-paginate:            "10"
+paginate:            10
 
 # Exclude
 #
