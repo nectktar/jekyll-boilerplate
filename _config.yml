@@ -1,7 +1,7 @@
 # Setup
 name:                "Your site name"
 description:         "Awesome description"
-url:                 "http://walutisme.com"
+url:                 "https://nectktar.github.io"
 baseurl:             "/jekyll-boilerplate"
 author:
   name:              "Your Name"
@@ -64,9 +64,9 @@ compress_html:
 # prose config
 prose:
   rooturl: _posts
-  siteurl: http://walutisme.com/jekyll-boilerplate
+  siteurl: https://nectktar.github.io/jekyll-boilerplate
   media: images
-  relativeLinks: http://walutisme.com/jekyll-boilerplate/links.jsonp
+  relativeLinks: https://nectktar.github.io/jekyll-boilerplate/links.jsonp
   metadata:
     _posts:
       - name: 'layout'
@@ -87,4 +87,4 @@ prose:
           element: text
           label: Tag(s)
           value: []
-          placeholder: [tag1, tag2, tag3, ...]
+          placeholder: [tag1, tag2, tag3, ...]
